@@ -15,6 +15,9 @@ import spacy
 import statistics
 import string
 
+
+#asefadsfas
+
 DEBUG = False # True
 
 ParsedGraf = namedtuple('ParsedGraf', 'id, sha1, graf')
@@ -30,6 +33,8 @@ PAT_FORWARD = re.compile("\n\-+ Forwarded message \-+\n")
 PAT_REPLIED = re.compile("\nOn.*\d+.*\n?wrote\:\n+\>")
 PAT_UNSUBSC = re.compile("\n\-+\nTo unsubscribe,.*\nFor additional commands,.*")
 
+
+print ("hello")
 
 def split_grafs (lines):
     """
